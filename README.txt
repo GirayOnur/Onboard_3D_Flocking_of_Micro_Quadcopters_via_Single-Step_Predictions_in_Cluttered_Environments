@@ -11,10 +11,8 @@ Crazyflie quadcopters onboard see: https://www.bitcraze.io/documentation/reposit
 "Simulations" folder consists of:
 --"Cumulative Metric Plots" folder which includes MATLAB scripts to plot cumulative metrics.
 --"Metrics of Scalability Experiments" folder which includes MATLAB scripts to display metric values of scalability experiments.
---"Single Step Prediction Flocking" folder which includes MATLAB scripts that contains implementation of the Predictive Search 
-    flocking method, and scripts that plot/animate trajectories of the robots and plot the metric values of the simulation.
+--"Single Step Prediction Flocking" folder which includes MATLAB scripts that contains implementation of the Predictive Search flocking method, and scripts that plot/animate trajectories of the robots and plot the metric values of the simulation.
 --"Multi Step Prediction Flocking" folder which includes MATLAB scripts containing the multi step version of the Predictive Search flocking method for comparison
---"Potential Field Flocking" folder which includes MATLAB scripts that contains implementation of the Potential Field flocking 
-    method, and scripts that plot/animate trajectories of the robots and plot the metric values of the simulation.
+--"Potential Field Flocking" folder which includes MATLAB scripts that contains implementation of the Potential Field flocking method, and scripts that plot/animate trajectories of the robots and plot the metric values of the simulation.
 
 
