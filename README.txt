@@ -1,4 +1,4 @@
-This folder includes simulation and harware experiments for the paper "X" submitted to IEEE Robotics and Automation Letters (RA-L).
+This folder includes simulation and harware experiments for the paper "Onboard 3D Flocking of Micro Quadcopters via Single-Step Predictions in Cluttered Environments" submitted to IEEE Robotics and Automation Letters (RA-L).
 
 "Quadcopter Experiment" folder includes VICON trajectories and codes for simulating the experiment and plotting the metrics.
 Run "run_quadcopter_experiment.m" first, then run "simulation.m" to simulate the experiment or run "flocking_analyze_test.m" to plot 
