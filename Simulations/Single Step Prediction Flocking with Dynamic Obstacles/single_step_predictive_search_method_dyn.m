@@ -98,8 +98,11 @@ sim_head_list(1,:) = reshape(quad_head_list_alpha_i.',1,[]); %heading history
 sim_spd_list(1,:) = reshape(quad_spd_list_i.',1,[]); %speed history
 
 %% obstacle trajectories
-%the two moving obstacles cross the arena along cubic Bezier curves, the
-%same curves are flown by the obstacle quadcopters in the experiments:
+%the two moving obstacles cross the arena on linear paths perpendicular to the
+%migration direction, the paths are generated as cubic Bezier curves whose
+%control points are collinear and equally spaced, so the curves reduce to
+%straight lines traversed at a constant speed, the same paths are flown by the
+%obstacle quadcopters in the experiments:
 P0_1 = [-0.75; +0.00]; %control points of the first obstacle
 P1_1 = [-0.25; +0.00];
 P2_1 = [+0.25; +0.00];

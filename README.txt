@@ -5,7 +5,8 @@ Run "run_quadcopter_experiment.m" first, then run "simulation.m" to simulate the
 metrics.
 
 "Quadcopter Dynamic Obstacle Experiment" folder includes VICON trajectories and codes for plotting the metrics of the dynamic obstacle
-experiment, in which two quadcopters are flown along cubic Bezier curves as moving obstacles. Run "plot_dynamic_robot_metrics.m" to plot
+experiment, in which two quadcopters cross the arena on linear paths perpendicular to the migration direction as moving obstacles. The
+paths are generated as cubic Bezier curves with collinear control points. Run "plot_dynamic_robot_metrics.m" to plot
 the metrics and the trajectories of the test reported in the paper.
 "onboard_and_obstacle_controller_vicon.py" is the Crazyswarm script that starts the experiment and flies the obstacle
 quadcopters along their trajectories.

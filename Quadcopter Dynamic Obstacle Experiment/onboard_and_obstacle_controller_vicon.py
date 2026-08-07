@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
 #Starts the dynamic obstacle experiment, the flocking robots run the onboard
-#firmware while the obstacle quadcopters are flown along cubic Bezier curves
+#firmware while the obstacle quadcopters cross the arena on linear paths
+#perpendicular to the migration direction, the paths are generated as cubic
+#Bezier curves with collinear control points
 
 import numpy as np
 from scipy.io import savemat
@@ -54,7 +56,9 @@ if __name__ == "__main__":
     landing_delay = 10.0 #seconds
 
     # Generate obstacle trajectories
-    bezier_control_points = [] #four control points per obstacle
+    #the four control points of each obstacle are collinear and equally spaced,
+    #so the curve reduces to a straight line traversed at a constant speed:
+    bezier_control_points = []
     bezier_control_points.append(
         np.array([
             [-0.75,0],
