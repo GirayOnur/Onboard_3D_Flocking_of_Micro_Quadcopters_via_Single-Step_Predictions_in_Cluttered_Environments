@@ -6,8 +6,8 @@ metrics.
 
 "Quadcopter Dynamic Obstacle Experiment" folder includes VICON trajectories and codes for plotting the metrics of the dynamic obstacle
 experiment, in which two quadcopters are flown along cubic Bezier curves as moving obstacles. Run "plot_dynamic_robot_metrics.m" to plot
-the metrics and the trajectories. The test to be plotted is selected with the "filename" variable, the "idx_start" and "idx_stop" variables
-are tuned for Test 5. "onboard_and_obstacle_controller_vicon.py" is the Crazyswarm script that starts the experiment and flies the obstacle
+the metrics and the trajectories of the test reported in the paper.
+"onboard_and_obstacle_controller_vicon.py" is the Crazyswarm script that starts the experiment and flies the obstacle
 quadcopters along their trajectories.
 
 "Quadcopter Firmware Codes" folder includes flocking and HITL simulation firmware app layer
